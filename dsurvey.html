@@ -1,0 +1,104 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="surveys.css">
+    <title>Demographic Survey</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <h1 class="title">Japaka Technologies</h1>
+    <div class="container">
+      <p style: color="black"> <h1 style: color="purple">Jakapa Demographic Questionnaire</h1><br>
+
+    <p>This is the Demographic portion of the Jakapa Soft Skills Questionnaire. The results of the Demographic portion will be kept internally for research purposes only. The only exception is the use of your Jakapa ID from the Peer and Self evaluation to connect your name for completion reporting purposes to your instructor.</p>
+      <hr id="hrtitle">
+      <form action="/action_page.php" method="get">
+        <label for="First Name"><b>First Name</b></label>
+            <input type="text" placeholder="Enter Your First Name" name="First Name" required><br>
+
+        <label for="Last Name"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Your Last Name" name="Last Name" required><br>
+
+            <hr>
+
+        <lable for="What Is Your Age"><b>What is your age?</b></lable><br>
+            <input type="radio" name="ages" required> 18<br>
+            <input type="radio" name="ages" required> 19<br>
+            <input type="radio" name="ages" required> 20<br>
+            <input type="radio" name="ages" required> 21<br>
+            <input type="radio" name="ages" required> 22<br>
+            <input type="radio" name="ages" required> 23<br>
+            <input type="radio" name="ages" required> 24<br>
+            <input type="radio" name="ages" required> 25+<br>
+
+            <hr>
+
+            <lable for="What year are you in school"><b>What year are you in school?</b></lable><br>
+            <input type="radio" name="year" required> Freashman<br>
+            <input type="radio" name="year" required> Spohomore<br>
+            <input type="radio" name="year" required> Junior<br>
+            <input type="radio" name="year" required> Senior<br>
+            <input type="radio" name="year" required> Graduate Student<br>
+
+            <hr>
+
+            <lable for="what is your ethnicity"><b>What is your ethnicity?</b></lable><br>
+            <input type="radio" name="race" required> White<br>
+            <input type="radio" name="race" required> Hispanic or Latino<br>
+            <input type="radio" name="race" required> Black or African American<br>
+            <input type="radio" name="race" required> Native American or American Indian<br>
+            <input type="radio" name="race" required> Asian/Pacific Islander<br>
+            <input type="radio" name="race" required> Prefer not to answer<br>
+            <input type="radio" name="race" required> Other<br>
+
+            <hr>
+
+            <lable for="What is your gender"><b>What is your gender?</b></lable><br>
+            <input type="radio" name="gender" required> Male<br>
+            <input type="radio" name="gender" required> Female<br>
+            <input type="radio" name="gender" required> Prefer not to answer<br>
+            <input type="radio" name="gender" required> Other<br>
+
+            <hr>
+
+            <lable for="Are you ESL"><b>Are you ESL (English as a Second Language) Student?</b></lable><br>
+            <input type="radio" name="ESL" required> Yes<br>
+            <input type="radio" name="ESL" required> No<br>
+
+            <hr>
+
+            <lable for="Major"><b>Major</b></lable><br>
+            <input type="text" name="major" required><br>
+
+            <hr>
+
+            <lable for="Course Number"><b>Course Number (ex.ER361-01)</b></lable><br>
+            <input type="text" name="Course" required><br>
+
+            <hr>
+
+            <lable for="GPA"><b>GPA: Please check the range that is most applicable to your overall GPA</b></lable><br>
+            <input type="radio" name="GPA" required>Below 2.00<br>
+            <input type="radio" name="GPA" required>2.00-2.49<br>
+            <input type="radio" name="GPA" required>2.50-2.99<br>
+            <input type="radio" name="GPA" required>3.00-3.49<br>
+            <input type="radio" name="GPA" required>3.5-4.00<br>
+
+            <hr>
+
+            <lable for="Jakapa ID">Jakapa ID - Please put the month number of your birth date followed by the last four digits of your phone number. (Ex- Birthdate is April and phone number is 573-335-3663. Therefore my Jakapa ID would be 043663)<b></b></lable><br>
+            <input type="text" name="ID" required><br>
+
+            <hr>
+
+            <br><input type="submit" name="submit" required><br>
+            <br>
+            <br>
+
+      </form>
+  </body>
+</html>
