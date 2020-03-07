@@ -1,0 +1,21 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>script</title>
+  </head>
+  <body>
+<form style="border:1px solid #ccc">
+  <label for="fullname"><b>Name</b></label>
+  <input type="text" placeholder="Enter Your Full Name" id="fullname" required>
+    <button type="submit" id="signupbtn">Sign Up</button>
+     <script type="text/javascript">
+        const fullname = document.getElementById("fullname");
+        const signupbtn = document.getElementById("signupbtn");
+        signupbtn.onclick = function () {
+          fullname = fullname.value;
+           console.log(fullname);
+         }
+     </script>
+  </body>
+</html>

@@ -44,11 +44,11 @@ button {
   background-color: #4CAF50;
   color: white;
   padding: 18px 20px;
-  margin: 18px 0;
-  margin-left: 235px;
+  margin: 20px 20px;
+  margin-left:;
   border: none;
   cursor: pointer;
-  width: 100;
+  width: 50vh;
   opacity: 0.9;
 }
 
